@@ -9,3 +9,5 @@ We are using two child MFEs i.e.
 We have configured the webpack.config.js file for both products and cart MFEs so that the container can use them.
 
 We have created a Container/Shell/Host app to host the MFEs into them by configuring the webpack.config.js of the container folder.
+
+Consider that the cart , container , products folders are different repos maintained by different teams and they are binded by modulefederation plugin and hosted in container app. Each repo works isolated maybe be different teams and each has its own deployment cycle etc.
